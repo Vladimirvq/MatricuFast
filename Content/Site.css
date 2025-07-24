@@ -19,7 +19,7 @@ textarea {
         padding: 0;
     }
 }
-/* Estilos de la interfaz
+/* Estilos de la interfaz de AgregarEstuduante
     - Utilizando una paleta de colores marrón y blanco
    - Tipografía: Roboto
    - Efectos de hover y enfoque en botones y campos de entrada
@@ -76,4 +76,36 @@ label {
     font-size: 16px;
     cursor: pointer;
     transition: background-color 0.3s, transform 0.2s; /* Efecto de transformación */
+}
+
+/*Estilo de Estudiantes 
+    - Tabla con bordes y sombreado
+    - Encabezados destacados
+    - Botones de acción con efectos de hover
+*/
+
+.grid-view th,
+.grid-view td {
+    padding: 10px;
+    text-align: left;
+    border-bottom: 1px solid #e0e0e0;
+}
+
+.grid-view th {
+    background-color: #efebe9; /* Fondo de encabezados */
+    color: #3e2723; /* Color de texto de encabezados */
+}
+
+.grid-view tr:nth-child(even) {
+    background-color: #F5F5F5; /* Color gris claro para filas pares */
+}
+
+.grid-view tr:hover {
+    background-color: #d7ccc8; /* Color de fila al pasar el mouse */
+}
+
+/* Estilo para las celdas de comandos */
+.grid-view .command-field {
+    display: flex;
+    justify-content: space-around;
 }

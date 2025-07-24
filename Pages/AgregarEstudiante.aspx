@@ -5,7 +5,7 @@
 <head runat="server">
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
     <title>Agregar Estudiante</title>
-    <link rel="stylesheet" type="text/css" href="../Content/styles.css" />  <!-- Puedes enlazar un archivo CSS para estilos -->
+    <link rel="stylesheet" type="text/css" href="/Content/Site.css" />  <!-- Puedes enlazar un archivo CSS para estilos -->
 </head>
 <body>
     <form id="form1" runat="server">
