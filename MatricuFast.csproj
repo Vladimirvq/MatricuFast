@@ -121,6 +121,8 @@
     <Content Include="Default.aspx" />
     <Content Include="favicon.ico" />
     <Content Include="Global.asax" />
+    <Content Include="Pages\AgregarEstudiante.aspx" />
+    <Content Include="Pages\Estudiantes.aspx" />
     <Content Include="Scripts\bootstrap.bundle.js" />
     <Content Include="Scripts\bootstrap.bundle.min.js" />
     <Content Include="Scripts\bootstrap.esm.js" />
@@ -211,6 +213,20 @@
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
     <Compile Include="Models\Estudiante.cs" />
+    <Compile Include="Pages\AgregarEstudiante.aspx.cs">
+      <DependentUpon>AgregarEstudiante.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Pages\AgregarEstudiante.aspx.designer.cs">
+      <DependentUpon>AgregarEstudiante.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Pages\Estudiantes.aspx.cs">
+      <DependentUpon>Estudiantes.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Pages\Estudiantes.aspx.designer.cs">
+      <DependentUpon>Estudiantes.aspx</DependentUpon>
+    </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Site.Master.cs">
       <DependentUpon>Site.Master</DependentUpon>
@@ -234,7 +250,6 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
-    <Folder Include="Pages\" />
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />
